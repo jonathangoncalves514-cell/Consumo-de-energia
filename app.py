@@ -14,8 +14,8 @@ consumomensal=(potencia* horasdia* 30) / 1000
 valor_kwh=0.75
 
 #cálculo do custo
-custo=consumomensal* valor_kwh 
+custo=consumomensal* valor_kwh
 
 print("aparelho=",aparelho)
-print("consumo estimado é de", round(consumomensal),"kwh/mês")
+print("consumo estimado é de=", round(consumomensal),"kwh/mês")
 print("custo estimado e de R$", round(custo,2))

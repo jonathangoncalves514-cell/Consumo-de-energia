@@ -1,20 +1,25 @@
-#Sobre o projeto
-Projeto com objetivo de calcular o consumo mensal de aparelhos eletronicos e estimar o custo com base no uso diário.
+🔌 Calculadora de Consumo de Energia
+📋 Sobre o projeto
 
-#Tecnologias utilizadas
-Python
-Vs CODE
-GitHub
+Projeto desenvolvido com o objetivo de calcular o consumo mensal de aparelhos eletrônicos e estimar o custo de energia com base no uso diário.
 
-#Formula utilizada:
-consumo mensal=potencia*horasdia
+⚙️ Tecnologias utilizadas
+🐍 Python
+💻 VS Code
+🌐 GitHub
+🧮 Fórmula utilizada
+consumo_mensal = (potencia * horas_dia * 30) / 1000
+💰 Cálculo de custo
+custo = consumo_mensal * 0.75
+⚡ Como funciona o programa
 
-#Cálculo de custo:
-custo=consumomensal*0.75
+O programa solicita ao usuário:
 
-#como funciona o programa
-o programa solicita:
-.Nome do aparelho
-.potência em watts do aparelho
-.Tempo médio de uso diário em horas
+Nome do aparelho
+Potência do aparelho (em watts)
+Tempo médio de uso diário (em horas)
 
+Com base nesses dados, o sistema calcula automaticamente:
+
+🔋 Consumo mensal em kWh
+💵 Custo estimado da energia
