@@ -1,8 +1,7 @@
-#programa para calculo de consumo de energia
+#programa para calculo de consumo de energia eletrica 
 #entrada
 
-aparelho=input("Olá,qual o nome do aparelho?" )
-potencia=float(input("informe a potência do aparelho em watts(w): "))
+aparelho=input("Olá,qual o nome do aparelho?potencia=float(input("informe a potência do aparelho em watts(w): "))
 horasdia=float(input("Qual o tempo médio de uso diário em horas do aparelho? "))
 
 #processamento
